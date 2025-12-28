@@ -11,6 +11,6 @@ void main(void) {
 	printf("y = %.1f\n", y);
 	float z;
 	z = y * x;
-	printf("z = %.1f", z);
+	printf("z = %.1f\n", z);
 	_getch();
 }
