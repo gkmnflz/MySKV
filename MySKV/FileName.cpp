@@ -8,6 +8,9 @@ void main(void) {
 	scanf_s("%f", &x);
 	printf("Вы ввели %.1f\n", x);
 	y = x * x;
-	printf("y = %.1f", y);
+	printf("y = %.1f\n", y);
+	float z;
+	z = y * x;
+	printf("z = %.1f", z);
 	_getch();
 }
